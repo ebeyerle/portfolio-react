@@ -11,8 +11,8 @@ import Java from '../assets/java.png';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#edf0f3] text-[#000000]'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
+    <div name='about' className='w-full h-screen bg-white text-[#000000]'>
+      <div className='flex flex-col justify-center items-center w-full h-full mb-10'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
@@ -30,7 +30,7 @@ const About = () => {
                
             </div>
             */}
-            <div className='mt-20'>
+            <div className='mt-10'>
               <p>I am deeply passionate about developing exceptional software solutions that 
                 enhance the lives of those in my vicinity. In one of my previous roles, I focused
                 on creating HIPAA-compliant data interfaces by utilizing Java and JavaScript, along 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -9,11 +8,11 @@ import Name from '../assets/name1.png';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#edf0f3]'>
+    <div name='home' className='w-full h-screen bg-white'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <div className='mx-auto w-100 h-100'>
-          <img src={Name} />
+          <img alt="Evan Beyerle" src={Name} />
         </div>
         <p className='text-[#484b57] mx-auto mt-4'>I'm a developer with both Front end and Back end experience</p>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -46,8 +45,8 @@ const Home = () => {
         */}
         
         
-        <div className='mx-auto rounded-full w-80 h-80 overflow-hidden mt-10 md:h-96 md:w-96'>
-          <img src={Avatar} layout='fill' objectFit='cover' />
+        <div className='mx-auto rounded-full w-80 h-80 overflow-hidden mt-10 md:h-96 md:w-96 sm:w-60 sm:h-60'>
+          <img alt="avatar" src={Avatar} layout='fill' objectFit='cover' />
         </div>
       </div>
     </div>

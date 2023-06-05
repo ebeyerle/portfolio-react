@@ -17,8 +17,3 @@ function App() {
 }
 
 export default App;
-
-{/**
-https://www.youtube.com/watch?v=2kg0z1qNrkw
-1:27:00
-*/}
