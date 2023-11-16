@@ -22,7 +22,7 @@ export const data = [
         id:3,
         name:"OXT Widget",
         image:OXT,
-        github:"https://github.com/ebeyerle/oxt",
+        github:"https://github.com/ebeyerle/orchid-widget",
         live:"https://oxt-demo.netlify.app/",
     },
     {
